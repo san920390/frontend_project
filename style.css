@@ -1,0 +1,156 @@
+/* header stated here */
+*{
+  /* font-family: 'Poppins', sans-serif; */
+  background: #000000;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+/* width: 159px;
+height: 172px; */
+font-size: 48px;
+font-weight: 700;
+color: #FFFFFF;
+
+}
+.searchbar{
+font-size: 24px; 
+padding-left: 13px;
+width: 597px;
+height: 53px;
+background: #262626;
+border-radius: 15px;
+}
+.btn{
+/* width: 60px;
+height: 32px; */
+font-weight: 600;
+font-size: 22px;
+color: #FFFFFF;
+}
+
+/* -----------------section_1 start here ------------------------*/
+
+.img1{
+  background: #FECB03;
+  width: 53px;
+  height: 47px;
+  border-radius: 100px;
+  padding: 29px;
+}
+.img2{
+  background: #FECB03;
+  width: 62px;
+  height: 49px;
+  border-radius: 100px;
+  padding: 29px 27px 23px 27px;
+}
+.img3{
+  background: #FECB03;
+  width: 55px;
+  height: 43px;
+  border-radius: 100px;
+  padding: 32px 30px 26px 30px;
+}
+.img4{
+  background: #FECB03;
+  border-radius: 50%;
+  margin: 98px 50px 0px 305px;
+
+}
+.btn1{
+font-weight: 600;
+font-size: 35px;
+color: #262626;
+background: #FECB03;
+border-radius: 50px;
+padding: 27px 19px 27px 36px;
+margin: 47px 50px 60px 324px;
+}
+.text{
+font-weight: 600;
+font-size: 32px;
+color: #C4C4C4;
+margin-left: 13px;
+background: #262626;
+}
+
+.section_1{
+display: flex;
+width: 1323px;
+height: 588px;
+background: #262626;
+border-radius: 50px;
+margin: auto;
+}
+.item {
+  margin-left: 34px;
+  background: #262626;
+  display: flex;
+  flex-direction: column;
+}
+
+/*------------------- section-3 started here-------------------------------- */
+
+.section_2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1323px;
+  height: 888px;
+  background: black;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 13px;
+  }
+  .sec_2_div{
+  width: 346px;
+  height: 391px;
+  background: #1F1F1F;
+  border: 3px solid #262626;
+  border-radius: 20px;
+
+  }
+  .sec_2_head{
+    font-weight: 600;
+    font-size: 30px;
+    color: #C4C4C4;
+  }
+  .sec_2_para{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+
+  }
+  .btn2{
+  font-weight: 600;
+  font-size: 15px;
+  color: #262626;
+  background: #FECB03;
+  border-radius: 50px;
+  padding: 18px 32px 11px 38px;
+
+  }
+
+  /*-------------------------- footer start here---------- */
+
+.footer{
+display: flex;
+justify-content: space-between;
+height: 283px;
+width: 1446px;
+margin: auto;
+border-radius: 30px;
+background: #262626;
+}
+.footer_1{
+width: 520px;
+}
+.footer_2{
+  width: 335px;
+  height: 53px;
+}
